@@ -31,3 +31,29 @@ let myObject={
  console.log(typeof null);
  console.log(typeof myFunction );
  console.log(typeof id);
+
+
+
+// ++++++++++++++++++++++++
+
+//stack(primitive ) and heap (Non -premitive)
+
+let myName="Kuldeep"
+
+let lastName=myName
+lastName="Tomar"
+
+console.log(lastName);
+console.log(myName);
+
+let userOne={
+    userId:"email@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.userId="kuldeep@gmail.com";
+
+console.log(userOne.userId);
+console.log(userTwo.userId);
