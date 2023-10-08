@@ -28,10 +28,10 @@ const st=new String("Kuldeep-Tomar-rajput")
 
 const newStr="  kuldeep   "
 console.log(newStr);
-console.log(newStr.trim());
+console.log(newStr.trim());   //it is used to remove the whitespace
 
 const url="https://kuldeep.com/kuldeep%20tomar"
 console.log(url.replace('%20','-'))
-console.log(url.includes('kuldeep'));
+console.log(url.includes('kuldeep'));  //used to check the word in the string 
 
-console.log(st.split('-'));
+console.log(st.split('-'));   // split the string on the basis of given character  and store the words in array
