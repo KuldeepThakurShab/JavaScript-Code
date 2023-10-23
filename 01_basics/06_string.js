@@ -35,3 +35,16 @@ console.log(url.replace('%20','-'))
 console.log(url.includes('kuldeep'));  //used to check the word in the string 
 
 console.log(st.split('-'));   // split the string on the basis of given character  and store the words in array
+
+//string concetination
+
+function MyInfo(fname, lname , add){
+    // return "My name is "+ fname + " "+lname+ "."+
+    // add+" is my favorite city.";
+
+    //string introplation
+
+    return `My name is ${fname} ${lname}. ${add} is my favorite city.`;
+}
+
+console.log(MyInfo("Kuldeep", "Tomar", "Meerut"));
