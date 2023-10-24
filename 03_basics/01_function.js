@@ -45,6 +45,8 @@ const user={
     price:199
 }
 
+console.log(user.username);   //this is the way to print by using refernce of the object 
+
 function HandleObj(anyObj){
     console.log(`Username is ${anyObj.username} and price is ${anyObj.price}`)
 }
@@ -55,7 +57,7 @@ HandleObj({
     price:199
 })
 
-//function with Array
+// function with Array
 
 const myNewArray=[200,4000,7000]
 
@@ -63,5 +65,5 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 
-// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200,900,300]));
