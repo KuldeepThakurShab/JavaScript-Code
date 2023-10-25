@@ -10,6 +10,12 @@ function sayMyName(){
 
 // sayMyName();
 
+// const add=function(num1,num2){
+//     return num1+num2;
+// }
+
+// console.log(add(9,4));
+
 function addTwoNum(num1,num2){
     // console.log(num1+num2);
     let ans=num1+num2;
