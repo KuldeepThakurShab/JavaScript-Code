@@ -24,11 +24,10 @@ const obj1={a:1, b:2};
 const obj2={c:3, d:4};
 
 // const obj3={obj1,obj2};
-// console.log(obj1);
+console.log(obj1);
 // const obj3= Object.assign({},obj1,obj2)
-
-const obj3={...obj1, ...obj2};
-// console.log(obj3);
+// const obj3={...obj1, ...obj2};
+console.log(obj3);
 
 //objects inside array 
 const users=[
@@ -45,7 +44,7 @@ const users=[
 // users[1].email 
 // console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
+console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLogeedIn'));
